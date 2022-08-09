@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:background="#00FF00" />
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:background="#3366FF"
+        android:layout_marginBottom="120dp"/>
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:background="#3366FF"
+        android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:layout_width="311dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:background="#3366FF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Khamila Nur Lutfi Azzahra" />
+
+
+</FrameLayout>
